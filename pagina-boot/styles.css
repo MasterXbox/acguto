@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Saira+Condensed:wght@200&display=swap');
+
+
+
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #000;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+h1{
+    color: white;
+    font-size: 2.0rem;
+    margin-bottom: 50px;
+}
+
+p{
+   color: white; 
+   margin-left: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    margin-bottom: 30px;
+}
+
+#pressF10{
+    margin-left: 40px;
+}
+
+
+
+.services {
+    padding: 50px;
+    background-color: #151515;
+    margin-bottom: 50px;
+}
+
+
+.com-underscore::after {
+    content: '_';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .5s infinite;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+
+@keyframes pisca {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#prosseguir {
+    margin-left: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    background-color: transparent; 
+    border: 2px solid #333; 
+    color: #ededed; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border-radius: 5px;
+}
+
+#prosseguir:hover {
+    background-color: black; 
+    color: #fff; 
+    border: 2px white solid;
+}

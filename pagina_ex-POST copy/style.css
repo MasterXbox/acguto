@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    color: #ff5d56;
+    font-size: 2.0rem;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.subtitulo {
+    color: white;
+    opacity: 0.5;
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+}
+
+h4 {
+    color: #ff5d56;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Poppins';
+    color: white;
+    text-align: justify;
+    padding: 0 180px 0 180px;
+}
+
+body {
+    background-color: #000;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+img{
+    height: 400px;
+    width: 700px;
+}
+
+.title-subtitle {
+    text-align: center;
+}
+
+.explicação {
+    padding: 20px;
+    max-width: 1200px;
+}
+
+
+
+.services {
+    padding: 70px;
+    background-color: #151515;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+.prosseguir{
+    margin-left: 40px;
+    font-family:'Poppins';
+    margin-top: 20px;
+    background-color: transparent; 
+    border: 2px solid #333; 
+    color: #ededed; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border-radius: 7px;
+    font-weight: 300;
+    width: 150px;
+    font-size: 1.0rem;
+}
+
+.prosseguir:hover{
+    background-color: black; 
+    color: #fff; 
+    border: 2px white solid;
+}
+
+.animation-services{
+    animation: inicializar .7s forwards;
+  
+  }
+  
+  @keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+  
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .arrow{
+    position: absolute;
+    margin-top: 4px;
+    width: 50px;
+    height: 50px;
+ 
+    left: 150px;
+    border-radius: 50px;
+    text-align: center;
+    border: 0;
+    z-index: 1000;
+    background-color: black;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    border: 2px white solid;
+}
+
+.arrow:hover{
+    background-color: #dc3545; 
+    color: #fff; 
+    border: none;
+}
+
+i{
+    margin-top: 4px;
+}

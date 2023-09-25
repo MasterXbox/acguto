@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+html { 
+    background: url(assets_desktop/windows-10-dark-blue-5k-8k-8000x4500-733.jpg) no-repeat center center fixed; 
+    backdrop-filter: blur(100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  .app-icon{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+  }
+
+  .div-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 20px;
+  }
+
+  .text-p{
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .app-column-1{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   margin-left: 35px;
+   gap: 10px;
+  }
+
+  .app-column-2{
+    margin-left: 40px;
+  }
+
+  .texto-exp{
+    width: 150px;
+    height: 200px;
+    background-color: #222; 
+  }
+
+  .titulo{
+    color: white;
+    text-align: center;
+  }
+  
+  .colunas-apps{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .text-box{
+    padding-top: 55px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+  }
+
+  .auxilio{
+    color: white;
+    background-color: #081b29;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    width: 500px;
+    height: 150px;
+    padding-top: 10px;
+  }
