@@ -77,10 +77,10 @@ body {
 }
 
 img{
-    width: 65%;
+    width: 700px;
     height: 350px;
-    margin-left: 17.5%;
     margin-top: 40px;
+    margin-left: 180px;
 }
 
 button {
