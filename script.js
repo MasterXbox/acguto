@@ -17,7 +17,7 @@ interruptor.addEventListener('drop', (event) => {
 
     if (draggedItem === 'tomada' && !conectado) {
         link.style.display = 'block';
-        link.href = '/pagina_ex-Power/index.html'; // Substitua pelo link desejado
+        link.href = 'pagina_ex-Power/index.html'; // Substitua pelo link desejado
         conectado = true;
     }
 });
