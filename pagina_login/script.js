@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Exemplo simples para demonstração:
         const password = document.getElementById("password").value;
-
+    
         if ( password === "250367" || password === "25/03/67") {
             
         } else {

@@ -50,7 +50,7 @@ function escrevendoLetra() {
 
 function redirecionar() {
 
-    window.location.href = 'http://127.0.0.1:5502/pagina_ex-BOOT/index.html';
+    window.location.href = '/pagina_ex-BOOT/index.html';
 }
 
 escrevendoLetra();
